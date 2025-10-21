@@ -1,0 +1,13 @@
+# Power BI Measures (DAX-like pseudo notation; define in PBI)
+
+Total Capacity (MW) = SUM(power_plants[capacity_mw])
+Plants Count = COUNTROWS(power_plants)
+
+Capacity by Fuel (MW) = SUM(v_capacity_by_fuel[capacity_mw])
+
+-- Optional CO2 estimate (requires parameter [Capacity Factor] as decimal, e.g., 0.45):
+-- Annual CO2 (kt) = SUMX(
+--   power_plants,
+--   power_plants[capacity_mw] * 8760 * [Capacity Factor] * RELATED(emission_factors[kg_co2_per_mwh]) / 1000
+-- )
+-- Note: This is a rough illustrative proxy, not a real emission model.

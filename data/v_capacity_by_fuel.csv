@@ -1,0 +1,16 @@
+primary_fuel,capacity_mw,plant_count
+Biomass,34281.3016,1430
+Coal,1965540.9996,2330
+Cogeneration,4048.0,41
+Gas,1493050.602149,3998
+Geothermal,12687.75,189
+Hydro,1053159.6198,7156
+Nuclear,407911.76,195
+Oil,261878.709618,2320
+Other,3612.86,43
+Petcoke,2424.5775,12
+Solar,188312.32349,10665
+Storage,1712.3,135
+Waste,14748.714,1068
+Wave and Tidal,552.2,10
+Wind,263053.7295,5344

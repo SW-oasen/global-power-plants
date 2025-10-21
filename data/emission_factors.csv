@@ -1,0 +1,12 @@
+primary_fuel,kg_co2_per_mwh
+Coal,900
+Gas,400
+Oil,700
+Biomass,230
+Hydro,0
+Nuclear,0
+Solar,0
+Wind,0
+Geothermal,0
+Waste,500
+Other,0
