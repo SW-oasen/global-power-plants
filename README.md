@@ -7,6 +7,9 @@ This portfolio project analyzes the **global power plant landscape** using an in
 - **Emission factors** for a simplified CO₂ estimation
 - **What-If parameter** to simulate the impact of capacity factor changes
 
+## portfolio website on GitHub
+https://sw-oasen.github.io/yuchuan-portfolio/#projects
+
 ---
 
 ## 🔧 Data Source
